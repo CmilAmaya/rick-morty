@@ -1,0 +1,13 @@
+.character-detail{
+    padding: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-name {
+    font-size: 1.5em; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+  }

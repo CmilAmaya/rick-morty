@@ -1,0 +1,63 @@
+.home-container {
+    text-align: center;
+    background-color: var(--background-color);
+    color: white;
+    padding: 20px;
+}
+
+.home-image {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 3rem;
+}
+
+.home-title{
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+  
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.card {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px; /* Ancho de cada carta */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  background-color: var(--background-color);
+  border: 2px solid var(--secondary-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  border-radius: 5px;
+  margin: 20px 0;
+  font-size: 1rem;
+}

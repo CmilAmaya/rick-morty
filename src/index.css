@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Reiniciar estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+/* Variables CSS */
+:root {
+  --primary-color: rgba(157, 46, 255, 0.8); /* Color principal */
+  --secondary-color: rgba(113, 255, 85, 0.61); /* Color secundario */
+  --background-color: #090031; /* Color de fondo */
+  --text-color: #ffffff; /* Color del texto */
+  --card-background: #242424; /* Color de fondo de las cartas */
+  --font-family: 'Chakra Petch', sans-serif; /* Fuente principal */
+}
+
+/* Estilos base */
+html,
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
