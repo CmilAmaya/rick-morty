@@ -1,6 +1,6 @@
 import React from 'react';
 import portal from '../assets/portal.png';
-import '../styles/Navbar.css'; 
+import '../styles/navbar.css'; 
 
 const Navbar = () => {
   return (
