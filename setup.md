@@ -24,4 +24,4 @@
       ```
 
    ## Proyecto desplegado
-   - Para ver el proyecto desplegado puedes entrar aquí: 
+   - Para ver el proyecto desplegado puedes entrar aquí: [Rick and Morty app](https://rick-morty-pi-eosin.vercel.app/) 
