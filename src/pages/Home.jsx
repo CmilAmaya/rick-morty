@@ -8,7 +8,7 @@ import LocationCard from '../components/LocationCard';
 import EpisodeCard from '../components/EpisodeCard';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
-import '../styles/Home.css';
+import '../styles/home.css';
 
 // Componente principal que maneja la visualización de personajes, ubicaciones o episodios
 const Home = ({ type }) => {
