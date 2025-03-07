@@ -18,7 +18,14 @@
       ```bash
       npm install
       ```
-   4. Corre la aplicación:
+   4. Agrega un archivo llamado config.js dentro de la carpeta src y añade la siguiente información con la API KEY:
+      
+   ```javascript
+   // URL base de la API de Rick and Morty
+   export const API_URL = 'https://rickandmortyapi.com/api';
+   ```
+
+   5. Corre la aplicación:
       ```bash
       npm run dev
       ```
