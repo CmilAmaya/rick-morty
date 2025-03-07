@@ -1,12 +1,66 @@
-# React + Vite
+# Rick and Morty App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introducción
 
-Currently, two official plugins are available:
+Página web desarrollada con React y Vite, que permite explorar el universo de "Rick and Morty", dando detalles acerca de los personajes, episodios y ubicaciones de la serie.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Creación de la Aplicación
 
-## Expanding the ESLint configuration
+### Paso 1: Configuración Inicial
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La aplicación fue creada utilizando Vite, que proporciona un entorno de desarrollo rápido y eficiente. Se utilizó el siguiente comando para iniciar el proyecto:
+
+```bash
+npm create vite@latest rick-morty-app --template react
+```
+
+### Paso 2: Instalación de Dependencias
+
+Se instalaron las dependencias necesarias, incluyendo React y React Router para la navegación:
+
+```bash
+npm install react-router-dom
+```
+
+### Paso 3: Estructura del Proyecto
+
+La estructura general del proyecto se organizó de la siguiente manera:
+
+rick-morty-app/
+├── src/
+│ ├── components/
+│ │ ├── CharacterCard.jsx
+│ │ ├── EpisodeCard.jsx
+│ │ └── LocationCard.jsx
+│ │ └── Navbar.jsx
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ └── CharacterDetail.jsx
+│ ├── styles/
+│ │ ├── character.css
+│ │ ├── home.css
+│ │ ├── navbar.css
+│ │ └── pagination.css
+│ └── App.jsx
+└── README.md
+└── setup.md
+
+## Desafíos Encontrados
+
+### Inclusión de Locaciones y Episodios
+
+Uno de los principales desafíos fue la inclusión de locaciones y episodios. La API de "Rick and Morty" proporciona datos sobre estos elementos, pero la integración de estos datos en la aplicación requirió un manejo de las llamadas a la API y la gestión del estado dentro del componente reutilizable Home.
+
+### Cambio de Tipo en el Componente Home
+
+El cambio de tipo en el componente Home fue necesario para permitir que el componente manejara diferentes tipos de datos (personajes, episodios y locaciones). Esto implicó ajustar las propiedades y el estado del componente, lo que presentó algunos desafíos en términos de tipado y validación.
+
+## Facilidades
+
+Uno de los aspectos más positivos en el desarrollo de esta aplicación fue la simplicidad para consumir la API de "Rick and Morty". La API no solo es intuitiva, sino que también cuenta con una documentación clara y bien estructurada, lo que facilitó enormemente el proceso de integración. Esto permitió un desarrollo más ágil y eficiente, ya que se pudo acceder rápidamente a la información necesaria para poderla mostrar por medio de los distintos componentes.
+
+## Recursos
+
+- [Documentación de React](https://reactjs.org/docs/getting-started.html)
+- [Documentación de Vite](https://vitejs.dev/guide/)
+- [API de Rick and Morty](https://rickandmortyapi.com/)
