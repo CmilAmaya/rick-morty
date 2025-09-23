@@ -1,10 +1,10 @@
 # Laboratorio 2 - Software Architecture
 
-- **Nombre:** María Camila Amaya Rodríguez  
+- **Name:** María Camila Amaya Rodríguez  
 
 
 ## 1 · Component-and-Connector View.
-![Diagrama C&C](c&c-lab2.drawio.png)
+![C&C Diagram](c&c-lab2.drawio.png)
 
 ## 2 · Description of the identified components and connectors.
 
